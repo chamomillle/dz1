@@ -1,6 +1,6 @@
 m = float(input())
 if int(m) == m:
-    print ("число целое")
+    print("число целое")
 else:
-    print ("число дробное")
+    print("число дробное")
     
