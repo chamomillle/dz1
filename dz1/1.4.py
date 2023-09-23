@@ -1,6 +1,6 @@
-stroka = str(input())
-a = stroka [::-1]
+stroka = input()
+a = stroka[::-1]
 if stroka == a:
-  print("palindrom")
+    print("palindrom")
 else:
-  print("ne palindrom")
+    print("ne palindrom")
