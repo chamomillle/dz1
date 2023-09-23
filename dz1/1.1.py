@@ -1,4 +1,4 @@
-print('введите 2 числа a и b')
+print('введи 2 числа a и b')
 a = float(input())
 b = float(input())
 if a < b:
