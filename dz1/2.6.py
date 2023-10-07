@@ -6,5 +6,6 @@ for i in a:
         k += 1
         if k == m:
             print(f'{m}-ая цифра в строке {i}')
+            break
     
     

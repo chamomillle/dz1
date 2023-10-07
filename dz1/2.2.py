@@ -1,12 +1,9 @@
 s = [] #список
 a = input("вводите числа по одному и без пробелов (в начале и конце). "
           " чтобы перейти к результату, введите пустую строку: ")
-while len(a) != 0:
+while a:
     s.append(a)
     a = input("вводите числа по одному и без пробелов (в начале и конце). "
               "чтобы перейти к результату, введите пустую строку: ")
-s = sorted(s, reverse = True) 
-string = ""
-for m in s:
-    string = string + m 
-print(string)
+s = sorted(s, reverse=True) 
+print(''.join(s))
