@@ -1,1 +1,3 @@
-print(*[int(i) for i in input()], sep='\n')
+n = input()
+for x in n:
+    print(x)
