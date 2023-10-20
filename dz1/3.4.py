@@ -1,7 +1,11 @@
 from collections import Counter
-from py import f
+from qwe import fy
 
-els = f(input())
-ans = Counter(els)
-print('Элемент | Частота')
-print(*[f'{i} | {ans[i]}' for i in ans], sep='\n')
+
+def ff(x):
+    print("Элемент | Частота")
+    return Counter(x)
+     
+x = fy(n)
+v = ff(x)
+print(*[f'{i} | {v[i]}' for i in v] , sep = '\n')
