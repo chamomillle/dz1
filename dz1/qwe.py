@@ -7,4 +7,4 @@ def fy(x):
 
 if __name__ == "__main__":
     x = input()
-    print(fy(x))
+    print(fy(x)) 

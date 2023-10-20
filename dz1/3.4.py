@@ -8,4 +8,4 @@ def ff(x):
      
 x = fy(n)
 v = ff(x)
-print(*[f'{i} | {v[i]}' for i in v] , sep = '\n')
+print(*[f'{i} | {v[i]}' for i in v] , sep = '\n') 

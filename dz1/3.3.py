@@ -5,4 +5,4 @@ def f(n):
     print(' '.join(str(x) for x in fib[:n]))
 
 n = int(input("Введите количество чисел Фибоначчи: "))
-f(n)
+f(n) 

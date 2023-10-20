@@ -6,4 +6,4 @@ def f(n):
     if n in [6, 7, 8]:
         return "лето"
     return "осень"
-print(f(int(input())))
+print(f(int(input()))) 

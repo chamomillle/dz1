@@ -14,4 +14,4 @@ if __name__ == "__main__":
     x = input("Сам список: ")
     c = 0
     a = f(x)
-    print(sdvig(a, y))
+    print(sdvig(a, y)) 

@@ -14,4 +14,4 @@ def f(x):
     return b
 
 if __name__ == "__main__":
-    print(f(x = [a for a in input().split()]))
+    print(f(x = [a for a in input().split()])) 

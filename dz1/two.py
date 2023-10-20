@@ -6,4 +6,4 @@ def ff(n):
 
 
 if __name__ == "__main__":
-    print(ff(int(input())))
+    print(ff(int(input()))) 
