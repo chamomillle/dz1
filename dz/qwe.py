@@ -1,9 +1,10 @@
-def fy(x):
+def fy():
     x = input()
+    lst = []
     while x:
-        list.append(x)
+        lst.append(x)
         x = input()
-    return list
+    return lst
 
-list = []
-print(fy(x))
+if __name__ == '__main__':
+    print(fy())
