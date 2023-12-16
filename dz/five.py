@@ -1,4 +1,4 @@
-def binary_search(sequence, target):
+def binary_search(sequence, target) :
     low, high = 0, len(sequence) - 1
     result = None
     while low <= high:
@@ -8,6 +8,6 @@ def binary_search(sequence, target):
             high = mid - 1 
         elif sequence[mid] > target:
             high = mid - 1      
-        else:
+        else: 
             low = mid + 1
-    return result
+    return result 
