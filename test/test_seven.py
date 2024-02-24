@@ -1,11 +1,6 @@
 import pytest
 from dz.seven import search
 
-
-def condition(this, cur):
-    return this == cur
-
-
 def cc(gr, cur):
     return bool(gr)
 
