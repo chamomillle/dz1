@@ -56,7 +56,7 @@ def load_factor(hash_table):
 def main():
     hash_table = init_hash_table()
     while True:
-        print('1)Добавить ключ-значение')
+        print("1)Добавить ключ-значение")
         print("2)Удалить значение")
         print("3)Получить значение")
         print("4)Коэффициент заполнения")
@@ -67,20 +67,20 @@ def main():
             while True:
                 key = input("Ключ: ")
                 set_value(hash_table, key, input("Значение: "))
-                if key == '':
+                if key == "":
                     del_value(hash_table, "")
                     break
         elif inp == str(2):
             while True:
                 key = input("Введите ключ: ")
                 del_value(hash_table, key)
-                if key == '':
+                if key == "":
                     break
         elif inp == str(3):
             while True:
                 key = input("Введите ключ: ")
                 print(get_value(hash_table, key))
-                if key == '':
+                if key == "":
                     break
         elif inp == str(4):
             print(load_factor(hash_table))

@@ -2,7 +2,7 @@ def f(x):
     b = True
     if len(x) > 1:
         for i in range(0, len(x)):
-            for y in range(i+1, len(x)):
+            for y in range(i + 1, len(x)):
                 if x[i] == x[y]:
                     b = False
                     break
@@ -13,5 +13,6 @@ def f(x):
                     b = False
     return b
 
+
 if __name__ == "__main__":
-    print(f(x = [a for a in input().split()])) 
+    print(f(x=[a for a in input().split()]))

@@ -3,4 +3,4 @@ def f(a):
 
 
 a = [int(a) for a in input().split()]
-print(f(a)) 
+print(f(a))
